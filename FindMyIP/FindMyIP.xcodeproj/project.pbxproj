@@ -85,6 +85,7 @@
 		4B2AF4122B7649C1007BB276 /* FindMyIPFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FindMyIPFramework.docc; sourceTree = "<group>"; };
 		4B2AF4182B7649C1007BB276 /* FindMyIPFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyIPFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2AF41F2B7649C2007BB276 /* FindMyIPFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyIPFrameworkTests.swift; sourceTree = "<group>"; };
+		4B2AF46C2B764F42007BB276 /* OwnPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = OwnPackage; path = ../../../OwnPackage; sourceTree = "<group>"; };
 		4BD417742B71336A00CD56D6 /* FindMyIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD4177C2B71336A00CD56D6 /* FindMyIP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FindMyIP.xcdatamodel; sourceTree = "<group>"; };
 		4BD417802B71336B00CD56D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -171,6 +172,7 @@
 		4BD4176B2B71336A00CD56D6 = {
 			isa = PBXGroup;
 			children = (
+				4B2AF46C2B764F42007BB276 /* OwnPackage */,
 				4BD417762B71336A00CD56D6 /* FindMyIP */,
 				4BD4178D2B71336B00CD56D6 /* FindMyIPTests */,
 				4BD417972B71336B00CD56D6 /* FindMyIPUITests */,
