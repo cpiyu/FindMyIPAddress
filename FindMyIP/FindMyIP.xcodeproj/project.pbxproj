@@ -12,8 +12,7 @@
 		4B2AF4192B7649C2007BB276 /* FindMyIPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B2AF40F2B7649C1007BB276 /* FindMyIPFramework.framework */; };
 		4B2AF4202B7649C2007BB276 /* FindMyIPFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2AF41F2B7649C2007BB276 /* FindMyIPFrameworkTests.swift */; };
 		4B2AF4212B7649C2007BB276 /* FindMyIPFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B2AF4112B7649C1007BB276 /* FindMyIPFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B2AF4242B7649C2007BB276 /* FindMyIPFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B2AF40F2B7649C1007BB276 /* FindMyIPFramework.framework */; };
-		4B2AF4252B7649C2007BB276 /* FindMyIPFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4B2AF40F2B7649C1007BB276 /* FindMyIPFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		4B2AF4B02B765D69007BB276 /* FindMyIPPAckage in Frameworks */ = {isa = PBXBuildFile; productRef = 4B2AF4AF2B765D69007BB276 /* FindMyIPPAckage */; };
 		4BD4177D2B71336A00CD56D6 /* FindMyIP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BD4177B2B71336A00CD56D6 /* FindMyIP.xcdatamodeld */; };
 		4BD417812B71336B00CD56D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD417802B71336B00CD56D6 /* Assets.xcassets */; };
 		4BD417852B71336B00CD56D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BD417842B71336B00CD56D6 /* Preview Assets.xcassets */; };
@@ -42,13 +41,6 @@
 			remoteGlobalIDString = 4BD417732B71336A00CD56D6;
 			remoteInfo = FindMyIP;
 		};
-		4B2AF4222B7649C2007BB276 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4BD4176C2B71336A00CD56D6 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4B2AF40E2B7649C1007BB276;
-			remoteInfo = FindMyIPFramework;
-		};
 		4BD4178B2B71336B00CD56D6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 4BD4176C2B71336A00CD56D6 /* Project object */;
@@ -65,27 +57,13 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		4B2AF4292B7649C2007BB276 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				4B2AF4252B7649C2007BB276 /* FindMyIPFramework.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		4B2AF40F2B7649C1007BB276 /* FindMyIPFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FindMyIPFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2AF4112B7649C1007BB276 /* FindMyIPFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindMyIPFramework.h; sourceTree = "<group>"; };
 		4B2AF4122B7649C1007BB276 /* FindMyIPFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FindMyIPFramework.docc; sourceTree = "<group>"; };
 		4B2AF4182B7649C1007BB276 /* FindMyIPFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyIPFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2AF41F2B7649C2007BB276 /* FindMyIPFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyIPFrameworkTests.swift; sourceTree = "<group>"; };
-		4B2AF46C2B764F42007BB276 /* OwnPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = OwnPackage; path = ../../../OwnPackage; sourceTree = "<group>"; };
+		4B2AF4AE2B765C1F007BB276 /* FindMyIPPAckage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FindMyIPPAckage; path = ../../../FindMyIPPAckage; sourceTree = "<group>"; };
 		4BD417742B71336A00CD56D6 /* FindMyIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD4177C2B71336A00CD56D6 /* FindMyIP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FindMyIP.xcdatamodel; sourceTree = "<group>"; };
 		4BD417802B71336B00CD56D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -124,7 +102,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B2AF4092B7648EB007BB276 /* Alamofire in Frameworks */,
-				4B2AF4242B7649C2007BB276 /* FindMyIPFramework.framework in Frameworks */,
+				4B2AF4B02B765D69007BB276 /* FindMyIPPAckage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,7 +150,7 @@
 		4BD4176B2B71336A00CD56D6 = {
 			isa = PBXGroup;
 			children = (
-				4B2AF46C2B764F42007BB276 /* OwnPackage */,
+				4B2AF4AE2B765C1F007BB276 /* FindMyIPPAckage */,
 				4BD417762B71336A00CD56D6 /* FindMyIP */,
 				4BD4178D2B71336B00CD56D6 /* FindMyIPTests */,
 				4BD417972B71336B00CD56D6 /* FindMyIPUITests */,
@@ -318,16 +296,15 @@
 				4BD417702B71336A00CD56D6 /* Sources */,
 				4BD417712B71336A00CD56D6 /* Frameworks */,
 				4BD417722B71336A00CD56D6 /* Resources */,
-				4B2AF4292B7649C2007BB276 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4B2AF4232B7649C2007BB276 /* PBXTargetDependency */,
 			);
 			name = FindMyIP;
 			packageProductDependencies = (
 				4B2AF4082B7648EB007BB276 /* Alamofire */,
+				4B2AF4AF2B765D69007BB276 /* FindMyIPPAckage */,
 			);
 			productName = FindMyIP;
 			productReference = 4BD417742B71336A00CD56D6 /* FindMyIP.app */;
@@ -523,11 +500,6 @@
 			isa = PBXTargetDependency;
 			target = 4BD417732B71336A00CD56D6 /* FindMyIP */;
 			targetProxy = 4B2AF41C2B7649C2007BB276 /* PBXContainerItemProxy */;
-		};
-		4B2AF4232B7649C2007BB276 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4B2AF40E2B7649C1007BB276 /* FindMyIPFramework */;
-			targetProxy = 4B2AF4222B7649C2007BB276 /* PBXContainerItemProxy */;
 		};
 		4BD4178C2B71336B00CD56D6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1037,6 +1009,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 4B2AF4072B7648EB007BB276 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
+		};
+		4B2AF4AF2B765D69007BB276 /* FindMyIPPAckage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = FindMyIPPAckage;
 		};
 /* End XCSwiftPackageProductDependency section */
 

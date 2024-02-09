@@ -6,13 +6,13 @@
 //
 
 import SwiftUI
-//import AppUtils
+import FindMyIPFramework
 
 struct ContentView: View {
     
-//    init(){
-//        print(MyUser.getUserName())
-//    }
+    init(){
+        print("priya",FindMyIP.self)
+    }
     var body: some View {
         IPView(viewModel: IPViewModel())
     }
